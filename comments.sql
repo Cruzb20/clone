@@ -1,0 +1,5 @@
+CREATE TABLE comment (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    comments TEXT,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

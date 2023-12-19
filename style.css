@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color:rgb(214,214,214);
+    height: 100%;
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(246, 246, 246);
+}
+
+h1 {
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+
+.line {
+    border-bottom: 5px solid gold;
+    width: 35%;
+    margin-top: 25px; 
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.circle-container {
+    text-align: center;
+}
+
+.myDIV1 {
+    background-color: #FFFFFF;
+    border: 4px solid black;
+    border-radius: 50%;
+    padding: 40px;
+    margin: 10px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://wallpapersmug.com/download/1024x768/01e666/Ultra-Instinct-Dragon_Ball-goku.jpg'); 
+}
+.myDIV2 {
+    background-color: #FFFFFF;
+    border: 4px solid black;
+    border-radius: 50%;
+    padding: 40px;
+    margin: 10px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/baryon-mode-naruto-nine-tails.jpg'); 
+}
+.myDIV3 {
+    background-color: #FFFFFF;
+    border: 4px solid black;
+    border-radius: 50%;
+    padding: 40px;
+    margin: 10px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://assetsio.reedpopcdn.com/Luffy-Gear-5-eyes-and-smiling.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp'); 
+}
+.circle-text {
+    margin-top: 10px;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container3 {
+    padding: 15px;
+    width: 550px;
+    background-color: red; 
+    color: #FFFFFF;
+}
+.rtr {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.text1 {
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: -5px;
+    font-size: 30px;
+}
+
+.demo {
+    margin-left: auto; 
+    font-size: 15px; 
+}
+
+.demo1{
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top:13px;
+}
+.container4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.container5{
+    height:420px;
+    width: 550px;
+    background-color: rgb(255,170,0);
+}
+
+.div1 {
+       width: 350px;
+    max-height:600px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+    transform: rotate(5deg); 
+    border-left: 12px solid black;
+    border-bottom: 14px solid black;
+    -webkit-box-shadow: 0px -5px 5px 21px rgba(218,218,232,1);
+    -moz-box-shadow: 0px -5px 5px 21px rgba(218,218,232,1);
+    box-shadow: 0px -5px 5px 21px rgba(218,218,232,1);
+
+}
+.div1 img {
+    width: 100%; /* Make sure the image fills the rotated container */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div0 img {
+    border: 10px solid gray;
+   margin-bottom:-5px;
+   
+}
+.title{
+    text-align: center;
+    font-size: 48px;
+    margin-top: 55px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 0px rgba(64, 116, 181, 1), 
+    2px -2px 0px rgba(64, 116, 181, 1), 
+    -2px 2px 0px rgba(64, 116, 181, 1), 
+    -2px -2px 0px rgba(64, 116, 181, 1), 
+    2px 0px 0px rgba(64, 116, 181, 1), 
+    0px 2px 0px rgba(64, 116, 181, 1), 
+    -2px 0px 0px rgba(64, 116, 181, 1), 
+    0px -2px 0px rgba(64, 116, 181, 1);
+}
+.span{
+    text-align: center;
+    margin-top:5px;
+}
+
+.container6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container7 {
+    max-width: 550px;
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.div2 {
+    margin-top: 6px;
+}
+
+.div3 {
+    background-color: pink;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ff {
+    width: 100%;
+    margin: 20px auto; /* Adjust the margin as needed */
+    box-sizing: border-box;
+}
+.appear {
+    height: 170px;
+    width: 170px;
+  position:relative;
+top:-360px;
+  margin: auto;
+  animation: ani 2s forwards;
+}
+@keyframes ani {
+    0% {left: 100px; top: 0; opacity: 1; font-size: 12px; }
+    50% {left: 100px; top: -100; opacity: 1; font-size: 64px; }
+    100% {left: 100px; top: -100; opacity: 0; font-size: 64px; }
+  }
+  .rtr1{
+    height: 755px;
+    width: 483px;
+    position: absolute;
+    left:0;
+    top:230px;
+}
+.rtr2{
+    height: 755px;
+    width: 483px;
+    position: absolute;
+    right:0;
+    top:230px;
+}
+  
+@media (max-width: 768px) {
+    .rtr1,.rtr2{
+        display: none;
+    }
+    .container3 {
+        max-width: 100%; /* Adjusted to be full width on small screens */
+    }
+
+    .text1 {
+        font-size: 24px; /* Adjusted font size for smaller screens */
+    }
+
+    .demo {
+        font-size: 16px; /* Adjusted font size for smaller screens */
+    }
+
+    .demo1 {
+        font-size: 16px; /* Adjusted font size for smaller screens */
+    }
+    .line {
+        border-bottom: 5px solid gold;
+        width: 100%;
+      
+    }
+    
+
+    .div1 {
+        max-width: 90%;
+    }
+
+    .title {
+        font-size: 36px;
+        margin-top: 30px;
+    }
+    .container7 {
+        padding: 10px;
+    }
+
+    .ff {
+        width: 100% !important;
+    }
+    .appear{
+        height: 70px;
+        width: 70px;
+    }
+
+}
+
+@media (max-width: 980px) {
+    .rtr1,.rtr2{
+        display: none;
+    }
+    .container3 {
+        max-width: 100%; /* Adjusted to be full width on small screens */
+    }
+
+    .text1 {
+        font-size: 24px; /* Adjusted font size for smaller screens */
+    }
+
+    .demo {
+        font-size: 16px; /* Adjusted font size for smaller screens */
+    }
+
+    .demo1 {
+        font-size: 16px; /* Adjusted font size for smaller screens */
+    }
+    .line {
+        border-bottom: 5px solid gold;
+        width: 100%;
+      
+    }
+    
+
+    .div1 {
+        max-width: 90%;
+    }
+
+    .title {
+        font-size: 36px;
+        margin-top: 30px;
+    }
+    .container7 {
+        padding: 10px;
+    }
+
+    .ff {
+        width: 100% !important;
+    }
+    .appear{
+        height: 70px;
+        width: 70px;
+    }
+
+}
+
+
+.bx{
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+.heart-react-image,
+.save-react-image{
+    height: 24px;
+    width: 24px;
+display:none;
+}
+
+
+.comment-box {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px; /* Set a maximum width for larger screens */
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Center the box on larger screens */
+    display: none;
+}
+
+.comment-box textarea {
+    flex: 1; /* Take up remaining space */
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-right: 10px; /* Add some space between the textarea and icon */
+    width: 100%; /* Allow the textarea to take full width */
+    max-width: 430px; /* Set a maximum width for larger screens */
+}
+
+.custom-button, .bx-send{
+    margin-right: 0;
+    outline: none;
+    border: none;
+    text-align: right;
+    color: blue;
+    background-color: transparent;
+    font-size: 30px;
+   
+}
+
+
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .comment-box {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        align-items: stretch;
+        display: none; /* Initially hide the box on smaller screens */
+    }
+
+    .comment-box textarea {
+        width: 90%; /* Allow the textarea to take full width on smaller screens */
+        max-width: none; /* Remove the maximum width on smaller screens */
+        margin-right: 0; /* Remove the margin on smaller screens */
+    }
+
+.custom-button,.bx-send{
+        order: -1; /* Move the icon to the top on smaller screens */
+        text-align: right; /* Align the icon to the right on smaller screens */
+        position: relative;
+        font-size: 24px;
+    
+    }
+}
+#button2{
+    display: none;
+}
+

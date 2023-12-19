@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clone</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>GALLERY</h1>
+        <div class="line"></div>
+        <div class="container1">
+            <div class="circle-container">
+                <div class="myDIV1"></div>
+                <div class="circle-text">1</div>
+            </div>
+            <div class="circle-container">
+                <div class="myDIV2"></div>
+                <div class="circle-text">2</div>
+            </div>
+            <div class="circle-container">
+                <div class="myDIV3"></div>
+                <div class="circle-text">3</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="container3">
+            <div class="rtr">
+                <h2 class="text1">Dragon Ball </h2>
+                <p class="demo"></p>
+            </div>
+            <p class="demo1"></p>
+        </div>
+    </div>
+
+    <div class="container4">
+        <div class="container5">
+            <img src="https://www.pinpng.com/pngs/m/121-1217907_dbz-super-png-sangoku-super-saiyan-blue-2.png" class="rtr1" />
+            <img src="https://p1.hiclipart.com/preview/790/365/246/goku-ssj3-rayos-dragon-ball-z-son-goku-super-saiyan-3-standing.jpg" class="rtr2" />
+            <div class="div0">
+                <div class="div1">
+                    <img src="https://pa1.aminoapps.com/8060/7aff06abcddd2c7abcb3deb64c170a08adf2731ar1-581-331_hq.gif"
+                        alt="Your Image Alt Text">
+                </div>
+            </div>
+            <h1 class="title">Dragon Ball</h1>
+            <p class="span">@by: itami no shinzo</p>
+        </div>
+    </div>
+
+    <div class="container6">
+        <div class="container7">
+            <div class="div2">
+                <div class="div3">
+                    <h4>DESCRIPTION</h4>
+                </div>
+                <p class="ff">Ang pagiging matibay sa gitna ng mga pagsubok ay nagbibigay-daan sa atin upang magtagumpay at
+                    mahanap ang tunay na kahulugan ng buhay. Sa bawat hakbang na ating ginagawa patungo sa
+                    hinaharap, mayroong mga pagkakataon na tayo ay mabibigo at madadapa. Subalit ang mahalaga ay ang
+                    pagbangon, pagtutok sa mga bagay na may halaga, at ang patuloy na pag-asa sa sarili.</p>
+
+                <comment id="comments-container">
+                    <!-- Display existing comments here using JavaScript -->
+                </comment>
+                
+                <i class='bx bx-heart' id="heartIcon" onclick="toggleHeart()"></i>
+                <img src="heart.png" alt="Heart React Image" class="heart-react-image" id="heartReactImage"
+                    onclick="toggleHeart()">
+                <i class='bx bx-comment' onclick="toggleCommentBox()"></i>
+                <i class='bx bx-bookmark' id="saveIcon" onclick="toggleSave()"></i>
+                <img src="bookmark.png" alt="Save React Image" class="save-react-image" id="saveReactImage"  onclick="toggleSave()">
+                <i class='bx bx-edit' onclick="updateComment() , toggleButtons()" id="button2" name="update"  ></i>
+
+
+                    <form method="post" >
+
+                        <input type="hidden" id="commentId" name="id" />
+
+                        <div class="comment-box">
+
+                            <textarea id="commentText" spellcheck="false" name="comment" placeholder="Type your comment here..."></textarea>
+                          
+                            <button type="button" class="custom-button" onclick="submitComment()">
+                                <i class='bx bx-send'></i>
+                            </button>
+
+                        </div>
+                    </form>
+                  
+
+                    
+                    
+            </div>
+        </div>
+    </div>
+
+
+    
+
+</body>
+<script src="script.js"></script>
+
+    
+    
+
+</html>
